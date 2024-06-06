@@ -14,8 +14,6 @@ const apiKey = '1da183f71d1b58d9a76f882b6308d319';
             }
         }
 
-
-
         function getWeather() {
             const locationInput = document.getElementById('location-input').value.trim();
             if (!locationInput.match(/^[a-zA-Z\s]+$/)) {
@@ -55,8 +53,6 @@ const apiKey = '1da183f71d1b58d9a76f882b6308d319';
             const temperature = data.main.temp;
             const weatherId = data.weather[0].id;
             const iconClass = `owf-${weatherId}`;
-
-
 
             document.getElementById('current-location').textContent = location;
             document.getElementById('current-temp').textContent = `${temperature}°C`;
