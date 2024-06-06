@@ -1,0 +1,71 @@
+body {
+    font-family: 'Montserrat';
+    margin-top: 20px;
+    height: 100vh;
+    background-image: url("wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(57, 2, 43);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: hsla(210, 33%, 99%, 0.102);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ea48ea;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e333b4;
+}
+
+.weather-info h2 {
+    font-size: 3.0em;
+    margin-bottom: 0.5em;
+}
+
+.weather-info h1 {
+    font-size: 3.0em;
+    margin: 0.2em 0;
+}   
+.temp{
+    font-size: 2.5em ;
+}
+.icon-large {
+    font-size: 4em;
+}
